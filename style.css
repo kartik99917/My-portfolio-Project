@@ -15,8 +15,9 @@
     padding: 30px 0;
     justify-content: center;
     align-items: center;
+    
   }
-  
+
   .back-vid{
     position: absolute;
     left: 0;
@@ -37,9 +38,7 @@
       height: auto;
     }
   }
-  
-  
-  
+
   .main-section{
     width: 90%;
     height: 90%;
@@ -47,6 +46,7 @@
     backdrop-filter: blur(10px);
     border-radius: 50px;
     box-shadow: 5px 5px 20px 1px #4acfee;
+    
   }
   
   nav{
@@ -54,17 +54,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 40px;
+    
   }
   
   nav h1{
     color: white;
     font-size: 30px;
     font-weight: 900;
+    
   }
   
   nav ul{
     list-style: none;
     display: flex;
+    border: none;
+    
   }
   
   nav a{
@@ -75,11 +79,10 @@
     transition: 0.2s;
     padding: 0px 25px;
   }
-  
   nav a:hover ,
   .active {
-    color : #4acfee;
-    text-decoration: underline;
+    color: #4acfee;
+    text-decoration: none;
   }
   
   .hero{
@@ -229,7 +232,6 @@
     color: white;
     font-size: 20px;
   }
-  
   @media (min-width: 1220px) {
     body{
       width: 100%;
